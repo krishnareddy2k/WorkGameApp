@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- 
+Student Info: Name=KrishnaReddy Kalyanam, ID=13778 
+Subject: CS557B_HW2_Summer_2015 
+Author: KrishnaReddy 
+Filename: charts.html  
+Date and Time: Jun 20, 2015 8:30:55 PM  
+Project Name: WordGameApp  
+--> 
+<html>
+    <head>
+        <title>Charts Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="./background.js"></script>
+        <script src="./LogChart.js"></script>
+        <script src="./scripts/Chart.js"></script>
+        <link rel="stylesheet" type="text/css" href="./wordgame.css">
+        <link rel="stylesheet" type="text/css" href="./small_media.css">
+    </head>
+    <body onload="loadData();">
+        <header id="header">
+            <img src="./images/main_header.jpg" alt="Word Game Application" >
+        </header>
+
+        <nav id="navigation" role="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="logs.html">Logs</a></li>
+                <li><a href="#">Charts</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        <article id="article">
+            <canvas id="myChart"  width="400" height="350"></canvas>
+
+        </article>
+        <aside id="aside">
+             <section>
+                <img class="rollImages" id="asideImg" src="" alt="advertisement image" style="max-width: 100%;height: 100%">
+                <section id="logoutDiv">
+                    <span id="welcomeUser" ></span>
+                    <a id="logoutA" href='javascript:logoutCurrentUser();'>logout</a>
+                </section>
+            </section>
+        </aside>
+        <footer id="footer"> <span style="color: #ffffff">©2015 Krishna Reddy Kalyanam. All rights reserved</span></footer>
+    </body>
+</html>

@@ -1,0 +1,210 @@
+/* 
+Student Info: Name=KrishnaReddy Kalyanam, ID=13778 
+Subject: CS557B_HW2_Summer_2015 
+Author: KrishnaReddy 
+Filename: small_media.css  
+Date and Time: Jun 20, 2015 8:16:16 PM  
+Project Name: WordGameApp  
+*/ 
+/* 
+    Created on : Jun 20, 2015, 8:16:16 PM
+    Author     : KrishnaReddy
+*/
+
+@media screen and (max-width: 680px) {
+    body{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        font: helvetica, arial, san-serif;
+    }
+    #header {
+        display:  none;
+    }
+    img{
+        max-width: 100% !important;
+        max-height: 100%;
+        width: auto !important;
+        background-size: contain;
+        background-repeat: repeat-x;
+
+        padding: 0px;
+        height: auto !important;
+        float: none;
+    }
+    h3 {
+        display:  block;
+        text-align: center;
+    }
+    #navigation,
+    #navigation ul {
+        float: none;
+        max-width: 100%;
+        width: 100% !important;
+
+        padding: 0px;
+    }
+    #navigation li{
+        background: coral;
+    }
+    #navigation a {
+        margin: 0;
+        display: block;
+        width: 100%;
+        float: none;
+        width: auto;
+        border-bottom: 1px solid rgba(86, 82, 82, 0.2);
+        padding: 0.25em;
+        text-align: center;
+
+        color: black;
+    }
+    section{
+        width: 20em !important;
+        padding: 0px;
+        margin: 0px;
+
+        height: 4em !important;
+        margin-top: 0px !important;
+    }
+    #aside{
+        float: none;
+        max-width: 100%;
+        width: 100% !important;
+        position: relative;
+    }
+    #article{
+        float: none;
+        max-width: 100%;
+        width: 100% !important;
+        overflow: auto;
+        padding: 0px !important;
+        margin: 0px !important;
+        margin-top: -5px !important;
+        margin-left: 4px !important;
+        margin-right: 4px !important;
+        margin-bottom: -39px !important;
+
+        background: salmon;
+        height: auto !important;
+    }
+    #article ul {
+        float: none;
+        height: auto;
+        max-width: 100%;
+        width: 100% !important;
+        padding: 0px;
+    }
+    #article li {
+        width: auto !important;
+        height: 20px;
+    }
+    #article label {
+        width: 15%;
+        text-align: left;
+        box-sizing: border-box; 
+        font-size: medium;
+    }  
+    input[type="radio"] + label:before, 
+    input[type="checkbox"] + label:before { 
+        display: inline-block; /* make this fake elements inline block */
+        position:relative; /* we need to move the element without effecting the doc flow */
+        top:0.25em;  /* we're moving it slightly down for alignment purposes */
+        width:25px; height:25px; /* the width and height of the fake elements */
+        background-image:url(formelements.png); /* the background image sprite */
+    }
+    input[type=submit],#article input[type=reset]{
+        width: 25%;
+        height: 24px;
+    }  
+    input[type=radio] {
+        width: 10%;
+        height: auto;
+    }  
+    input {
+        text-align: center;
+        box-sizing: border-box; 
+        width: auto !important; 
+        border: solid 1px #ccc; 
+        padding:0.2em; 
+        background-color: #F5F7A5; 
+        border-radius: 10px; 
+        box-shadow: inset 0 2px 3px rgba(0,0,0,0.2); 
+    }  
+
+    #footer{
+        clear: both;
+        width: 100%;
+        position: relative;
+        padding: 0px;
+        color: red;
+
+        background: black;
+    }
+
+    .plates{
+        float: left;
+        border-radius: 5px;
+        background: #cccccc;
+        padding: 8px;
+        margin: 10px;
+        width: 10px !important;
+        font-weight: bold;
+    }
+    div{
+        float: left;
+        display: inline-block;
+        width: 100% !important;
+    }
+
+    #input{
+        position: relative;
+        width: 100% !important;
+        float:left;
+        box-sizing: content-box;
+    } 
+    #myDiv{
+        display: block;
+        width: 100% !important;
+        height: auto !important;
+    }
+    #logoutDiv{
+        display: none;
+    }
+    tbody{
+        display: table-row-group;
+        box-sizing: border-box;
+    }
+    th{
+        border: solid 1px;
+        word-wrap: break-word;
+        background: #ccccff;
+        font-size: smaller;
+    }
+    table, tr{
+        border: 1px solid #343434;
+        border-collapse: collapse;
+        margin: 2px;
+        width:95%;
+    }
+    td{
+        width: 100%;
+        max-width: 25%;
+        border: 1px solid #343434;
+        border-collapse: collapse;
+        font-size: smaller;
+    }
+    #gameTimer{
+        padding: 2px;
+        margin: 1em;
+        width: auto !important;
+        height: auto !important;
+        box-sizing: content-box;
+        max-width: 5.5em; 
+        box-shadow: inset 0 2px 3px rgba(0,0,0,0.2);
+        background: #FF9962;
+        border-radius: 6px; 
+    
+        color: black;
+}
+}

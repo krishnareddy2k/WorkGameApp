@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- 
+Student Info: Name=KrishnaReddy Kalyanam, ID=13778 
+Subject: CS557B_HW2_Summer_2015 
+Author: KrishnaReddy 
+Filename: logs.html  
+Date and Time: Jun 20, 2015 8:27:54 PM  
+Project Name: WordGameApp  
+--> 
+<html>
+    <head>
+        <title>User Logs</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="./background.js"></script>
+        <script src="./game.js"></script>
+        <script src="./logs.js"></script>
+        <link rel="stylesheet" type="text/css" href="./wordgame.css">
+        <link rel="stylesheet" type="text/css" href="./small_media.css">
+    </head>
+    <body onload="loadData();displayLogs();">
+         <header id="header">
+            <img src="./images/main_header.jpg" alt="Word Game Application" >
+        </header>
+
+        <nav id="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="#">Logs</a></li>
+                <li><a href="charts.html">Charts</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        <article id="article">
+            <h3>Player Activities Page</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Player Name</th>
+                        <th>Start Date and Time</th>
+                        <th>End Date and Time</th>
+                        <th>Game Word</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+                <tbody id="logsTbody">
+                    <!--  dynamic logs activity population  -->
+                </tbody>
+
+            </table>
+        </article>
+        <aside id="aside">
+            <section>
+                <img class="rollImages" id="asideImg" src="" alt="advertisement image" style="max-width: 100%;height: 100%">
+                <section id="logoutDiv">
+                    <p id="welcomeUser" ></p>
+                    <a id="logoutA" href='javascript:logoutCurrentUser();'>logout</a>
+                </section>
+            </section>
+        </aside>
+        <footer id="footer"><span>©2015 Krishna Reddy Kalyanam. All rights reserved</span></footer>
+    </body>
+</html>

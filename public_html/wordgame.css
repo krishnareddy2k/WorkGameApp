@@ -1,0 +1,220 @@
+/* 
+Student Info: Name=KrishnaReddy Kalyanam, ID=13778 
+Subject: CS557B_HW2_Summer_2015 
+Author: KrishnaReddy 
+Filename: wordgame.css  
+Date and Time: Jun 20, 2015 7:14:16 PM  
+Project Name: WordGameApp  
+*/ 
+/* 
+    Created on : Jun 20, 2015, 7:14:16 PM
+    Author     : KrishnaReddy
+*/
+
+body{
+    margin-left: 5em;
+    margin-right: 5em;
+    padding: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background: black;
+    border: 1px dashed #1A1919;
+}
+#navigation {
+    width: 100% !important;
+
+    background: #ccc;
+    margin: 5px;
+    padding: 0px;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: auto !important;
+    padding: 0px;
+}
+#header {
+    height: auto !important;
+    width: auto !important;
+    padding: 0px;
+}
+#aside {
+    display: block;
+    border: 1px;
+    position: relative;
+    margin: 2px;
+    max-width: 20%;
+    width: 20% !important;
+    margin-top: 40px;
+}
+.rollImages{
+    alignment-adjust: middle;
+}
+#article {
+    float: right;
+    background: dimgrey;
+    border: 1px;
+    position: relative;
+    overflow: auto;
+    padding: 0px;
+    max-width: 78%;
+    height: 25em !important;
+    width: 78% !important;
+    margin: 2px 2px;
+    margin-top: 17px;
+}
+#article ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navigation ul {
+    height: 100%;
+    max-width: 100%;
+    width: 100%;
+    float: none;
+    margin: 0px;
+}
+
+#navigation li {
+    list-style:none;
+    height: 100%;
+    padding: 0px;
+}
+
+#navigation a {
+    float: left;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0.3, 0.2, 0, 0);
+    padding: 0 1em;
+}
+
+#navigation a:hover {
+    background: #666;
+}
+
+#article li {
+    float: none;
+    height: 100%;
+    margin: 10px;
+    list-style-type:none;
+}
+#footer{
+    clear: both;
+    display: block;
+    height: auto !important;
+    width: 100%;
+    background: #343434;
+    text-align: center;
+    color: red;
+}
+span{
+    display: block;
+    alignment-baseline: middle;
+}
+input{
+    margin: 1px;
+    padding: 1px;
+    font-size: small;
+    background: #9E9E9E;
+}
+label{
+    margin: 5px;
+}
+tbody{
+    display: table-row-group;
+    box-sizing: border-box;
+}
+th{
+    border: solid 1px;
+    word-wrap: break-word;
+    background: #ccccff;
+}
+table, tr{
+    border: 1px solid #343434;
+    border-collapse: collapse;
+    margin: 15px;
+    width:90%;
+}
+td{
+    width: auto;
+    max-width: 25%;
+    border: 1px solid #343434;
+    border-collapse: collapse;
+}
+form{
+    alignment-adjust:middle;
+    alignment-baseline: middle
+}
+section{
+    margin-top: 37px;
+}
+.dragPlates{
+    float: left;
+    border-radius: 5px;
+    background: #cccddd;
+    padding: 0.25em;
+    margin: 1em;
+    width: 1.5em;
+    height: 2em;
+    color: #343434;
+    font-weight: bold;
+}
+.dropPlates{
+    float: left;
+    border-radius: 5px;
+    background: #cccccc;
+    padding: 0.25em;
+    margin: 1em;
+    width: 1.5em;
+    height: 2em;
+    color: #343434;
+    font-weight: bold;
+}
+div{
+    display: block;
+    height: auto;
+    width:100%;
+    float: left;
+}
+#timer{
+    display: block;
+    float: right;
+    height: 2.5em;
+    padding: 2px;
+    margin: 2px;
+    width: auto !important;
+}
+#gameTimer{
+    padding: 0.25em;
+    margin: 1em;
+    width: 4.5em;
+    height: 2em;
+}
+#logoutDiv{
+    display: block;
+    width: 100%;
+    height: 2em;
+    padding: 10px;
+    margin: 5px;
+}
+#welcomeUser{
+    display:block;
+    color: #ff9900;
+}
+#logoutA{
+    color: #ff9900;
+    padding: 2px;
+    margin: 1px;
+}
+#myChart{
+    width: 100% !important;
+    height: 100% !important;
+}
+canvas{
+    width: 100% !important;
+    height: 100% !important;
+    
+}

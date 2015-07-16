@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- 
+Student Info: Name=KrishnaReddy Kalyanam, ID=13778 
+Subject: CS557B_HW2_Summer_2015 
+Author: KrishnaReddy 
+Filename: register.html.html  
+Date and Time: Jun 20, 2015 7:23:59 PM  
+Project Name: WordGameApp  
+-->
+
+<html>
+    <head>
+        <title>Register Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="./background.js"></script>
+        <link rel="stylesheet" type="text/css" href="./wordgame.css">
+        <link rel="stylesheet" type="text/css" href="./small_media.css">
+    </head>
+    <body onload="changeImage();">
+        <header id="header">
+            <img src="./images/main_header.jpg" alt="Word Game Application" >
+        </header>
+
+        <nav id="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="logs.html">Logs</a></li>
+                <li><a href="charts.html">Charts</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        <article id="article">
+            <h5>User Information</h5>
+            <span id="regSuccess" style="color: red"></span>
+            <form name="registerForm">
+                <ul>
+                    <li>
+                        <label for="username">User Name:</label>
+                        <input  type="text" name="username" id="username" required="">
+                    </li>
+                    <li>
+                        <label for="firstname">First Name:</label>
+                        <input  type="text" name="firstname" id="firstname" required="">
+                    </li>
+                    <li>
+                        <label for="lastname">Last Name:</label>&nbsp;
+                        <input type="text" name="lastname" id="lastname" required="">
+                    </li>
+                    <li>
+                        <label for="password">Password:</label>&nbsp;&nbsp;&nbsp;
+                        <input type="password" id="password" required="">
+                    </li>
+                    <li>
+                        <label  style="alignment-baseline: central" for="email">Email Id:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="text" name="email" id="email" required="">
+                    </li>
+                    <li><span>&nbsp;Gender:<label for="male">Male</label>
+                            <input type="radio" name="gender" id="male" value="Male" >
+                            <label for="female">Female</label>
+                            <input type="radio" name="gender" id="female" value="Female" ></span>
+                    </li>
+                    <li>
+                        <input type="submit" id="submit" value="Submit" onclick="registerUser();">
+                        <input type="reset" id="cancel" value="Cancel" >
+                    </li>
+                </ul>
+            </form>
+        </article>
+        <aside id="aside">
+             <section>
+                <img class="rollImages" id="asideImg" src="" alt="advertisement image" style="max-width: 100%;height: 100%">
+                <section id="logoutDiv">
+                    <p id="welcomeUser" ></p>
+                </section>
+            </section>
+        </aside>
+        <footer id="footer"><span>©2015 Krishna Reddy Kalyanam. All rights reserved</span></footer>
+    </body>
+</html>
